@@ -19,5 +19,5 @@ script:
   - qmake
   - make
   - ./travis_qmake_gcc_cpp14_cppcheck
-  # Run cppcheck
-  - cppcheck main.cpp
+  # Run cppcheck on current folder
+  - cppcheck .
