@@ -7,7 +7,7 @@ auto f() noexcept {
 
 int main() 
 {
-  char a[10];
-  a[10] = 0;
+  const int a[3] = { 0, 1, 2 };
+  a[3] = 0; // Access violation!
   std::cout << a[0] << f() << '\n';
 }
