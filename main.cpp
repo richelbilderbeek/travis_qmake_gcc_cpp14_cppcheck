@@ -1,9 +1,12 @@
 #include <iostream>
 
+//C++14
 auto f() noexcept {
   return "Hello world\n";
 }
 
-int main() {
-  std::cout << f();
+int main() 
+{
+  char a[10];
+  a[10] = 0;
 }
