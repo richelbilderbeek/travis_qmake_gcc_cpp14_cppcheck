@@ -15,6 +15,9 @@ install:
   - sudo apt-get install -qq cppcheck
 
 script: 
+  # Build and run this project
   - qmake
   - make
   - ./travis_qmake_gcc_cpp14_cppcheck
+  # Run cppcheck
+  - cppcheck main.cpp
