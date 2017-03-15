@@ -20,4 +20,4 @@ script:
   - make
   - ./travis_qmake_gcc_cpp14_cppcheck
   # Run cppcheck on current folder
-  - cppcheck .
+  - cppcheck --quiet --error-exitcode=1 . 
