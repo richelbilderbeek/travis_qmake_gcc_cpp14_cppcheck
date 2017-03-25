@@ -20,7 +20,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
 
 More complex builds:
 
- * [none]
+ * Use C++17: [travis_qmake_gcc_cpp17_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17_cppcheck)
 
 Builds of similar complexity:
 
