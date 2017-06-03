@@ -28,5 +28,7 @@ Builds of similar complexity:
 
 Less complex builds:
 
+ * Use C++11: [travis_qmake_gcc_cpp11_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_cppcheck)
+ * Use C++98: [travis_qmake_gcc_cpp98_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_cppcheck)
  * No `cppcheck`: [travis_qmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14)
 
