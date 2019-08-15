@@ -3,6 +3,7 @@ dist: bionic
 compiler: gcc
 
 install: 
+  - sudo apt update -qq
   # cppcheck
   - sudo apt-get install -qq cppcheck
 
